@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'viewmodels/plant_viewmodel.dart';
+import 'viewmodels/theme_viewmodel.dart';
+import 'views/plant_list_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,13 +13,21 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Theboyz',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => PlantViewModel()),
+        ChangeNotifierProvider(create: (_) => ThemeViewModel()),
+      ],
+      child: Consumer<ThemeViewModel>(
+        builder: (context, themeViewModel, child) {
+          return MaterialApp(
+            title: 'Guía de Plantas',
+            theme: themeViewModel.currentTheme,
+            home: const PlantListScreen(),
+            debugShowCheckedModeBanner: false,
+          );
+        },
       ),
-      home: const Placeholder(),
     );
   }
 }

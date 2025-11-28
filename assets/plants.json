@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Monstera Deliciosa",
+    "scientificName": "Monstera deliciosa",
+    "description": "Conocida como Costilla de Adán, es famosa por sus grandes hojas perforadas.",
+    "imageUrl": "https://images.unsplash.com/photo-1614594975525-e45890e2e126?q=80&w=1000&auto=format&fit=crop",
+    "careInstructions": "Luz indirecta brillante. Regar cuando la capa superior del suelo esté seca. Humedad alta."
+  },
+  {
+    "id": "2",
+    "name": "Lengua de Suegra",
+    "scientificName": "Sansevieria trifasciata",
+    "description": "Planta muy resistente, ideal para principiantes. Purifica el aire.",
+    "imageUrl": "https://images.unsplash.com/photo-1620127395689-188656113840?q=80&w=1000&auto=format&fit=crop",
+    "careInstructions": "Tolera poca luz. Regar poco, dejar secar completamente el sustrato entre riegos."
+  },
+  {
+    "id": "3",
+    "name": "Ficus Lyrata",
+    "scientificName": "Ficus lyrata",
+    "description": "Árbol de interior popular por sus grandes hojas en forma de violín.",
+    "imageUrl": "https://images.unsplash.com/photo-1612361660603-913075e997d8?q=80&w=1000&auto=format&fit=crop",
+    "careInstructions": "Luz brillante indirecta. Mantener el suelo húmedo pero no encharcado. Evitar corrientes de aire."
+  },
+  {
+    "id": "4",
+    "name": "Potos",
+    "scientificName": "Epipremnum aureum",
+    "description": "Planta trepadora de rápido crecimiento y fácil cuidado.",
+    "imageUrl": "https://images.unsplash.com/photo-1596724857969-b52e3c092607?q=80&w=1000&auto=format&fit=crop",
+    "careInstructions": "Luz indirecta media a baja. Regar cuando el suelo esté seco. Muy resistente."
+  },
+  {
+    "id": "5",
+    "name": "Calathea",
+    "scientificName": "Calathea orbifolia",
+    "description": "Apreciada por el patrón decorativo de sus hojas.",
+    "imageUrl": "https://images.unsplash.com/photo-1600411833196-7c1f6b1a8b90?q=80&w=1000&auto=format&fit=crop",
+    "careInstructions": "Luz indirecta media. Alta humedad es crucial. Mantener el suelo ligeramente húmedo."
+  }
+]
