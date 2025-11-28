@@ -21,7 +21,7 @@ class ThemeViewModel extends ChangeNotifier {
       foregroundColor: Colors.white,
       elevation: 0,
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       elevation: 2,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
     ),
@@ -36,10 +36,17 @@ class ThemeViewModel extends ChangeNotifier {
       foregroundColor: Colors.white,
       elevation: 0,
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: const Color(0xFF1E1E1E),
       elevation: 2,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+    ),
+    textTheme: const TextTheme(
+      titleMedium: TextStyle(color: Colors.white),
+      bodyMedium: TextStyle(color: Colors.white70),
+      headlineMedium: TextStyle(color: Colors.white),
+      bodyLarge: TextStyle(color: Colors.white),
+      titleLarge: TextStyle(color: Colors.white),
     ),
   );
 }

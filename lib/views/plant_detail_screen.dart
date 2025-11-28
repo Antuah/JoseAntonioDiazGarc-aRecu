@@ -27,8 +27,8 @@ class PlantDetailScreen extends StatelessWidget {
                   return Container(
                     height: 300,
                     color: Colors.grey[300],
-                    child: const Center(
-                      child: Icon(Icons.broken_image, size: 64, color: Colors.grey),
+                    child: Center(
+                      child: Icon(Icons.local_florist, size: 80, color: Colors.green[300]),
                     ),
                   );
                 },

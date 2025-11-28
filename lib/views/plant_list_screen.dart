@@ -110,7 +110,7 @@ class _PlantListScreenState extends State<PlantListScreen> {
                                 width: 100,
                                 height: 100,
                                 color: Colors.grey[300],
-                                child: const Icon(Icons.broken_image),
+                                child: const Icon(Icons.local_florist, size: 40, color: Colors.green),
                               );
                             },
                           ),
